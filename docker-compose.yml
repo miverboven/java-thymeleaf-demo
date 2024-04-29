@@ -1,0 +1,7 @@
+version: "3.1"
+services:
+  thymeleaf-app:
+    container_name: java-thymeleaf-demo
+    image: java-thymeleaf-demo:latest
+    ports:
+      - "8080:8080"
